@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English with Ali | Friendly & Effective Learning</title>
+    <meta name="description"
+        content="Friendly and effective English tutoring for teenagers and adults. 1:1 lessons, group courses, and Cambridge exam preparation. First lesson free!">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;700;800&family=Noto+Color+Emoji&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Favicon -->
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎓</text></svg>">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">English with <span class="text-primary">Ali</span></a>
+
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <div class="nav-links">
+                <a href="#about" data-i18n="nav_about">About</a>
+                <a href="#services" data-i18n="nav_services">Services</a>
+                <a href="#testimonials" data-i18n="nav_testimonials">Testimonials</a>
+                <a href="#contact" data-i18n="nav_contact">Contact</a>
+                <button class="lang-btn" data-lang-toggle>🇨🇿 CZ</button>
+                <a href="#calendly" class="btn btn-primary btn-sm" data-i18n="nav_book">Book Free Call</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1 data-i18n="hero_title">Friendly, Effective & Stress-Free English Lessons</h1>
+                <p data-i18n="hero_subtitle">Unlock your potential with personalized lessons. From conversation practice
+                    to Cambridge exam prep and Business English.</p>
+                <div class="hero-btns">
+                    <a href="#calendly" class="btn btn-primary" data-i18n="hero_cta">Book Your Free Call</a>
+                    <a href="#services" class="btn btn-outline" data-i18n="hero_services">Explore Services</a>
+                </div>
+                <p class="hero-note" data-i18n="hero_note">✨ First lesson is free & commitment-free!</p>
+            </div>
+            <div class="hero-image">
+                <!-- Placeholder for Tutor Image -->
+                <div class="img-placeholder" aria-label="Tutor portrait">
+                    <span>Ali's Photo</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container about-container">
+            <div class="about-image">
+                <!-- Video Placeholder -->
+                <div class="video-placeholder">
+                    <video poster="assets/video-poster.jpg" controls>
+                        <source src="assets/hello-video.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="video-overlay">
+                        <span>▶ Watch Hello Video</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-content">
+                <h2 data-i18n="about_title">Hi, I'm Ali</h2>
+                <p data-i18n="about_text1">I believe learning English should be fun, not stressful. My goal is to help
+                    you feel confident and capable in any conversation.</p>
+                <p data-i18n="about_text2">With a flexible approach tailored to your needs, we'll polish your grammar,
+                    expand your vocabulary, and get you speaking fluently. Whether you're a student preparing for exams
+                    or a professional looking to advance your career, I'm here to guide you.</p>
+
+                <div class="stats">
+                    <div class="stat-item">
+                        <span class="stat-number">5+</span>
+                        <span class="stat-label" data-i18n="stat_years">Years Experience</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">100+</span>
+                        <span class="stat-label" data-i18n="stat_students">Happy Students</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section services bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-i18n="services_title">How Can I Help You?</h2>
+                <p data-i18n="services_subtitle">Tailored lessons for every goal.</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card">
+                    <div class="icon">💬</div>
+                    <h3 data-i18n="service_1_title">1:1 Lessons</h3>
+                    <p data-i18n="service_1_desc">Personalized attention focused entirely on your specific needs and
+                        pace.</p>
+                </div>
+                <!-- Service 2 -->
+                <div class="service-card">
+                    <div class="icon">👥</div>
+                    <h3 data-i18n="service_2_title">Group Lessons</h3>
+                    <p data-i18n="service_2_desc">Learn with friends or colleagues in a fun, interactive environment.
+                    </p>
+                </div>
+                <!-- Service 3 -->
+                <div class="service-card">
+                    <div class="icon">🎓</div>
+                    <h3 data-i18n="service_3_title">Cambridge Prep</h3>
+                    <p data-i18n="service_3_desc">Structured preparation for FCE, CAE, and CPE exams with proven
+                        strategies.</p>
+                </div>
+                <!-- Service 4 -->
+                <div class="service-card">
+                    <div class="icon">💼</div>
+                    <h3 data-i18n="service_4_title">Business English</h3>
+                    <p data-i18n="service_4_desc">Master professional communication, presentations, and negotiations.
+                    </p>
+                </div>
+                <!-- Service 5 -->
+                <div class="service-card">
+                    <div class="icon">🏢</div>
+                    <h3 data-i18n="service_5_title">Corporate Training</h3>
+                    <p data-i18n="service_5_desc">Language benefits for your employees to boost team communication.
+                    </p>
+                </div>
+                <!-- Service 6 -->
+                <div class="service-card">
+                    <div class="icon">☕</div>
+                    <h3 data-i18n="service_6_title">Conversation</h3>
+                    <p data-i18n="service_6_desc">Relaxed chats to improve fluency and reduce speaking anxiety.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-i18n="testimonials_title">What Students Say</h2>
+            </div>
+
+            <div class="carousel">
+                <button class="carousel-btn prev" aria-label="Previous testimonial">❮</button>
+                <div class="carousel-track-container">
+                    <ul class="carousel-track">
+                        <li class="carousel-slide current-slide">
+                            <blockquote class="testimonial">
+                                <p data-i18n="testimonial_1_text">"I finally feel confident speaking in meetings! The
+                                    lessons are always fun and relevant to my job."</p>
+                                <cite>- Jana N.</cite>
+                            </blockquote>
+                        </li>
+                        <li class="carousel-slide">
+                            <blockquote class="testimonial">
+                                <p data-i18n="testimonial_2_text">"Passed my CAE exam with flying colors thanks to the
+                                    excellent preparation and tips."</p>
+                                <cite>- Petr K.</cite>
+                            </blockquote>
+                        </li>
+                        <li class="carousel-slide">
+                            <blockquote class="testimonial">
+                                <p data-i18n="testimonial_3_text">"The best English teacher I've ever had. Patient,
+                                    funny, and really knows how to explain grammar."</p>
+                                <cite>- Martina S.</cite>
+                            </blockquote>
+                        </li>
+                    </ul>
+                </div>
+                <button class="carousel-btn next" aria-label="Next testimonial">❯</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA / Calendly Section -->
+    <section id="calendly" class="section cta-section bg-primary text-white">
+        <div class="blob blob-3"></div>
+        <div class="container">
+            <div class="cta-content">
+                <h2 data-i18n="cta_title">Ready to Improve Your English?</h2>
+                <p data-i18n="cta_subtitle">Book your free introductory call today. No commitment, just a friendly chat
+                    to see how I can help.</p>
+
+                <!-- Calendly Inline Widget Begin -->
+                <div class="calendly-inline-widget" data-url="https://calendly.com/ali-tambiev1997/30min"
+                    style="min-width:320px;height:630px;"></div>
+                <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"
+                    async></script>
+                <!-- Calendly Inline Widget End -->
+
+                <p class="small-note" data-i18n="cta_note">* Please note: This is a demo Calendly link.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container contact-container">
+            <div class="contact-info">
+                <h2 data-i18n="contact_title">Get in Touch</h2>
+                <p data-i18n="contact_text">Have questions? Prefer to email? Fill out the form below or send me a
+                    message directly.</p>
+                <div class="contact-details">
+                    <p>📧 <a href="mailto:ali.tambiev1997@gmail.com">ali.tambiev1997@gmail.com</a></p>
+                    <p>📱 +420 606 305 245</p>
+                </div>
+            </div>
+
+            <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                    <label for="name" data-i18n="form_name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email" data-i18n="form_email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message" data-i18n="form_message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <div class="form-checkbox">
+                    <input type="checkbox" id="consent" name="consent" required>
+                    <label for="consent" data-i18n="form_consent">I agree to the processing of my personal data
+                        according to the Privacy Policy.</label>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block" data-i18n="form_submit">Send Message</button>
+                <p id="form-status" class="form-status"></p>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer bg-dark text-white">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-logo">English with Ali</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <button class="lang-btn footer-lang-btn" data-lang-toggle>🇨🇿 CZ</button>
+                <div class="footer-links" style="margin-top: 1rem;">
+                    <a href="#" id="privacy-link" style="color: rgba(255,255,255,0.6); font-size: 0.9rem;">Privacy
+                        Policy</a>
+                </div>
+                <p class="copyright">© 2024 English with Ali. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cookie Consent Banner -->
+    <div id="cookie-banner" class="cookie-banner">
+        <div class="container cookie-content">
+            <p class="cookie-text" data-i18n="cookie_text">We use cookies to ensure you get the best experience on our
+                website.</p>
+            <div class="cookie-btns">
+                <button id="accept-cookies" class="btn btn-primary btn-sm" data-i18n="cookie_accept">Accept</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Privacy Policy Modal -->
+    <div id="privacy-modal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <h2 data-i18n="privacy_title">Privacy Policy</h2>
+            <div class="privacy-body">
+                <p data-i18n="privacy_intro">This Privacy Policy describes how your personal information is collected,
+                    used, and shared when you visit or make a purchase from English with Ali.</p>
+                <h3 data-i18n="privacy_collection_title">Personal Information We Collect</h3>
+                <p data-i18n="privacy_collection_text">When you visit the Site, we automatically collect certain
+                    information about your device, including information about your web browser, IP address, time zone,
+                    and some of the cookies that are installed on your device.</p>
+                <h3 data-i18n="privacy_usage_title">How We Use Your Personal Information</h3>
+                <p data-i18n="privacy_usage_text">We use the Order Information that we collect generally to fulfill any
+                    orders placed through the Site (including processing your payment information, arranging for
+                    shipping, and providing you with invoices and/or order confirmations).</p>
+                <p><strong>[User Note: Please update this generic policy with your specific legal details.]</strong></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+
+
+</html>
+
+
