@@ -41,7 +41,7 @@ const translations = {
 
         cta_title: "Ready to Improve Your English?",
         cta_subtitle: "Book your free introductory call today. No commitment, just a friendly chat to see how I can help.",
-        cta_note: "* Please note: This is a demo Calendly link.",
+
 
         contact_title: "Get in Touch",
         contact_text: "Have questions? Prefer to email? Fill out the form below or send me a message directly.",
@@ -99,7 +99,7 @@ const translations = {
         testimonial_3_text: "Nejlepší učitel angličtiny, jakého jsem kdy měla. Trpělivý, vtipný a opravdu umí vysvětlit gramatiku.",
         cta_title: "Jste připraveni zlepšit svou angličtinu?",
         cta_subtitle: "Rezervujte si úvodní hovor zdarma ještě dnes. Žádné závazky, jen přátelský pokec o tom, jak vám mohu pomoci.",
-        cta_note: "* Poznámka: Toto je demo odkaz na Calendly.",
+
         contact_title: "Napište mi",
         contact_text: "Máte otázky? Preferujete email? Vyplňte formulář níže nebo mi pošlete zprávu přímo.",
         form_name: "Jméno",
