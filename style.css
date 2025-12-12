@@ -734,6 +734,29 @@ img {
     /* Emerald tint */
 }
 
+.form-checkbox {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.form-checkbox input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-top: 0.2rem;
+    /* Align with text top */
+    accent-color: var(--primary-color);
+    cursor: pointer;
+}
+
+.form-checkbox label {
+    cursor: pointer;
+    font-size: 0.95rem;
+    line-height: 1.4;
+    color: var(--text-light);
+}
+
 /* Footer */
 .footer {
     background-color: #111827;
