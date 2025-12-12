@@ -128,21 +128,19 @@ document.addEventListener('DOMContentLoaded', () => {
     let currentLang = localStorage.getItem('preferredLang');
 
     // IP Detection
+    // IP Detection / Browser Language Detection
     if (!currentLang) {
         // Default to English initially
         currentLang = 'en';
 
-        // Try to detect country
-        fetch('https://ipapi.co/json/')
-            .then(response => response.json())
-            .then(data => {
-                if (data.country_code === 'CZ') {
-                    updateLanguage('cz');
-                }
-            })
-            .catch(error => {
-                console.log('IP detection failed, defaulting to EN', error);
-            });
+        // Check browser language synchronously
+        const browserLang = navigator.language || navigator.userLanguage; 
+        if (browserLang && (browserLang.toLowerCase().includes('cs') || browserLang.toLowerCase().includes('cz'))) {
+            currentLang = 'cz';
+        }
+        
+        // Instant update without waiting for network
+        updateLanguage(currentLang);
     }
 
     function updateLanguage(lang) {
